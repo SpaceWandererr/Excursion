@@ -1,5 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+}
 
-git remote add origin https://github.com/SpaceWandererr/Excursion.git
-git branch -M main
-git push -u origin main
+body > *{
+    margin:20px;
+}
+
+.main-header{
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.footer{
+    align-self: flex-end;
+    color: gray;
+    position: relative;
+    bottom: 0px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+a{
+    color:aquamarine;
+    font-size: 16px;
+}
